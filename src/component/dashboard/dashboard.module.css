@@ -1,0 +1,24 @@
+.dashCont{
+    width: 100%;
+    display: grid;
+    padding: 75px 50px 50px 50px;
+    grid-template-columns: repeat(2, 300px);    
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+    align-items: center;
+    margin: 16px 16px 16px 16px;
+}
+.dashCont > div {
+    background-color: lightgray;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    font-size: 2em ;
+}
+.dashCont > div:hover {
+    background-color: dodgerblue;
+    color: white;
+}
